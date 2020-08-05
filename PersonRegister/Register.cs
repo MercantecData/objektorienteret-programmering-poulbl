@@ -20,8 +20,7 @@ namespace PersonRegister
     {
         private List<RegisteredPerson> persons { get; }
         private int nrOfPersons;
-        public string name; //?
-        public int week;
+        private string name; //?
 
         public int getNrOfPersons()
         {
@@ -59,7 +58,6 @@ namespace PersonRegister
                 Console.WriteLine("Age: " + p.person.age);
                 Console.WriteLine("Gender: " + p.person.gender);
             }
-
             Console.WriteLine("DONE PRINTING");
         }
 

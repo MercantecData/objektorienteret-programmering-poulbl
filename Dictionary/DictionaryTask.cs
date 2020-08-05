@@ -30,6 +30,7 @@ namespace Dictionary
             {0.1f, false },
             {0.9f, true },
             {0.2f, false },
+            {0.7f, true }
         };
 
 

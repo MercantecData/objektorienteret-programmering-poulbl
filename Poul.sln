@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonRegister", "PersonRegister\PersonRegister.csproj", "{83112C19-5D3A-4CB2-9103-D1B2F3D04B97}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonRegisterTest", "PersonRegisterTest\PersonRegisterTest.csproj", "{56A1F20C-E2E1-4BC2-B09B-8D170C3D0DBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestEnvironment", "PersonRegisterTest\TestEnvironment.csproj", "{56A1F20C-E2E1-4BC2-B09B-8D170C3D0DBD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary", "Dictionary\Dictionary.csproj", "{CEE9A96A-44A8-4163-91EB-953469BFB5B9}"
 EndProject

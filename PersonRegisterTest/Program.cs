@@ -40,6 +40,7 @@ namespace PersonRegisterTest
             //MATH
             Calculator calc = new Calculator();
 
+            #region
             Console.WriteLine("Add int: " + calc.Add(13, 2));
             Console.WriteLine("Add float: " + calc.Add(2.0f, 1.0f));
             Console.WriteLine("Add string: " + calc.Add("2", "5"));
@@ -56,8 +57,13 @@ namespace PersonRegisterTest
             Console.WriteLine("Square int: " + calc.Square(13));
             Console.WriteLine("Square float: " + calc.Square(2.0f));
             Console.WriteLine("Square string: " + calc.Square("5"));
+            #endregion
 
-
+            Console.WriteLine(calc.Add("3", 2.1f));
+            Console.WriteLine(calc.Add(3, "2.1"));
+            Console.WriteLine(calc.Add(3.0f, 2.1f));
+            Console.WriteLine(calc.Add(3, 2.1f));
+            Console.WriteLine(calc.Add(3.0d, 2.1f));
 
         }
     }
