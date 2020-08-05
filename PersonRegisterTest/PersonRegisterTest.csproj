@@ -1,3 +1,4 @@
+
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
@@ -6,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Dictionary\Dictionary.csproj" />
+    <ProjectReference Include="..\MathOverload\MathOverload.csproj" />
     <ProjectReference Include="..\PersonRegister\PersonRegister.csproj" />
   </ItemGroup>
 
